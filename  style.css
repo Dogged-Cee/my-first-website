@@ -24,6 +24,16 @@ body {
 }
 
 /* Projects */
+.navbar {
+  background: #00bcd4;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
 .project {
   background: #f9f9f9;
   padding: 12px;
