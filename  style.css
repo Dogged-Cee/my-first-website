@@ -1,30 +1,47 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background: #eaeaea;
+  background: #f4f6f8;
+  color: #333;
 }
 
+/* Main cards */
 .card {
   background: white;
   padding: 20px;
   margin: 15px auto;
-  max-width: 600px;
-  border-radius: 12px;
+  max-width: 650px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   text-align: center;
+  transition: 0.3s;
 }
 
+/* Hover effect */
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Projects */
 .project {
-  background: #f5f5f5;
-  padding: 10px;
+  background: #f9f9f9;
+  padding: 12px;
   margin: 10px 0;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
+/* Button */
 button {
   background: #00bcd4;
   color: white;
   border: none;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0097a7;
 }
