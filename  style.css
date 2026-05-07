@@ -73,5 +73,25 @@ button {
 }
 
 button:hover {
-  background: #0097a7;
+  background: #0097a7;body.dark {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+body.dark .card {
+  background: #1e1e1e;
+  color: #f1f1f1;
+}
+
+body.dark .project {
+  background: #2a2a2a;
+}
+
+body.dark .navbar {
+  background: #222;
+}
+
+body {
+  transition: all 0.3s ease;
+}
 }
