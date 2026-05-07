@@ -1,4 +1,17 @@
-body {
+.navbar {
+  background: #00bcd4;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}itbody {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
@@ -24,15 +37,6 @@ body {
 }
 
 /* Projects */
-.navbar {
-  background: #00bcd4;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  position: sticky;
-  top: 0;
 }
 .project {
   background: #f9f9f9;
