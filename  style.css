@@ -1,3 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+  color: #333;
+  padding-top: 70px;
+}
+
+/* Navbar */
 .navbar {
   background: #00bcd4;
   color: white;
@@ -11,15 +21,9 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-}itbody {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background: #f4f6f8;
-  color: #333;
 }
 
-/* Main cards */
+/* Cards */
 .card {
   background: white;
   padding: 20px;
@@ -28,16 +32,9 @@
   border-radius: 14px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   text-align: center;
-  transition: 0.3s;
-}
-
-/* Hover effect */
-.card:hover {
-  transform: translateY(-4px);
 }
 
 /* Projects */
-}
 .project {
   background: #f9f9f9;
   padding: 12px;
@@ -53,7 +50,6 @@ button {
   padding: 10px 15px;
   border-radius: 8px;
   cursor: pointer;
-  margin-top: 10px;
 }
 
 button:hover {
